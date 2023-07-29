@@ -1,0 +1,1199 @@
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:484:15: style: Variable 'GPIOx->LCKR' is reassigned a value before the old one has been used. [redundantAssignment]
+  GPIOx->LCKR = GPIO_Pin;
+              ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:482:15: note: GPIOx->LCKR is assigned
+  GPIOx->LCKR = tmp;
+              ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:484:15: note: GPIOx->LCKR is overwritten
+  GPIOx->LCKR = GPIO_Pin;
+              ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:486:15: style: Variable 'GPIOx->LCKR' is reassigned a value before the old one has been used. [redundantAssignment]
+  GPIOx->LCKR = tmp;
+              ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:484:15: note: GPIOx->LCKR is assigned
+  GPIOx->LCKR = GPIO_Pin;
+              ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:486:15: note: GPIOx->LCKR is overwritten
+  GPIOx->LCKR = tmp;
+              ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:193:12: style: The scope of the variable 'iocurrent' can be reduced. [variableScope]
+  uint32_t iocurrent = 0x00;
+           ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:318:12: style: The scope of the variable 'iocurrent' can be reduced. [variableScope]
+  uint32_t iocurrent = 0x00;
+           ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:192:23: style: Variable 'ioposition' is assigned a value that is never used. [unreadVariable]
+  uint32_t ioposition = 0x00;
+                      ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:193:22: style: Variable 'iocurrent' is assigned a value that is never used. [unreadVariable]
+  uint32_t iocurrent = 0x00;
+                     ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:194:17: style: Variable 'temp' is assigned a value that is never used. [unreadVariable]
+  uint32_t temp = 0x00;
+                ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:317:23: style: Variable 'ioposition' is assigned a value that is never used. [unreadVariable]
+  uint32_t ioposition = 0x00;
+                      ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:318:22: style: Variable 'iocurrent' is assigned a value that is never used. [unreadVariable]
+  uint32_t iocurrent = 0x00;
+                     ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:319:16: style: Variable 'tmp' is assigned a value that is never used. [unreadVariable]
+  uint32_t tmp = 0x00;
+               ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c:450:12: style: The scope of the variable 'i' can be reduced. [variableScope]
+  uint32_t i = 0 , interrupt = 0;
+           ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c:450:20: style: The scope of the variable 'interrupt' can be reduced. [variableScope]
+  uint32_t i = 0 , interrupt = 0;
+                   ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c:449:31: style: Variable 'USBx' is assigned a value that is never used. [unreadVariable]
+  USB_OTG_GlobalTypeDef *USBx = hhcd->Instance;
+                              ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c:450:14: style: Variable 'i' is assigned a value that is never used. [unreadVariable]
+  uint32_t i = 0 , interrupt = 0;
+             ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c:450:30: style: Variable 'interrupt' is assigned a value that is never used. [unreadVariable]
+  uint32_t i = 0 , interrupt = 0;
+                             ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c:785:31: style: Variable 'USBx' is assigned a value that is never used. [unreadVariable]
+  USB_OTG_GlobalTypeDef *USBx = hhcd->Instance;
+                              ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c:924:31: style: Variable 'USBx' is assigned a value that is never used. [unreadVariable]
+  USB_OTG_GlobalTypeDef *USBx = hhcd->Instance;
+                              ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c:1114:31: style: Variable 'USBx' is assigned a value that is never used. [unreadVariable]
+  USB_OTG_GlobalTypeDef *USBx = hhcd->Instance;
+                              ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:1274:12: style: The scope of the variable 'Prev_State' can be reduced. [variableScope]
+  uint32_t Prev_State = 0x00U;
+           ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:1369:12: style: The scope of the variable 'Prev_State' can be reduced. [variableScope]
+  uint32_t Prev_State = 0x00U;
+           ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:1750:12: style: The scope of the variable 'tmp' can be reduced. [variableScope]
+  uint32_t tmp;
+           ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2333:28: style: The scope of the variable 'tmp1' can be reduced. [variableScope]
+  uint32_t tickstart = 0U, tmp1 = 0U, tmp2 = 0U, tmp3 = 0U, I2C_Trials = 1U;
+                           ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2333:39: style: The scope of the variable 'tmp2' can be reduced. [variableScope]
+  uint32_t tickstart = 0U, tmp1 = 0U, tmp2 = 0U, tmp3 = 0U, I2C_Trials = 1U;
+                                      ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2333:50: style: The scope of the variable 'tmp3' can be reduced. [variableScope]
+  uint32_t tickstart = 0U, tmp1 = 0U, tmp2 = 0U, tmp3 = 0U, I2C_Trials = 1U;
+                                                 ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2333:61: style: The scope of the variable 'I2C_Trials' can be reduced. [variableScope]
+  uint32_t tickstart = 0U, tmp1 = 0U, tmp2 = 0U, tmp3 = 0U, I2C_Trials = 1U;
+                                                            ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2555:12: style: The scope of the variable 'tmp1' can be reduced. [variableScope]
+  uint32_t tmp1 = 0U, tmp2 = 0U, tmp3 = 0U, tmp4 = 0U;
+           ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2555:23: style: The scope of the variable 'tmp2' can be reduced. [variableScope]
+  uint32_t tmp1 = 0U, tmp2 = 0U, tmp3 = 0U, tmp4 = 0U;
+                      ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2555:34: style: The scope of the variable 'tmp3' can be reduced. [variableScope]
+  uint32_t tmp1 = 0U, tmp2 = 0U, tmp3 = 0U, tmp4 = 0U;
+                                 ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2555:45: style: The scope of the variable 'tmp4' can be reduced. [variableScope]
+  uint32_t tmp1 = 0U, tmp2 = 0U, tmp3 = 0U, tmp4 = 0U;
+                                            ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2840:12: style: The scope of the variable 'tmp' can be reduced. [variableScope]
+  uint32_t tmp;
+           ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2952:12: style: The scope of the variable 'tmp' can be reduced. [variableScope]
+  uint32_t tmp;
+           ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:3357:12: style: The scope of the variable 'tmp' can be reduced. [variableScope]
+  uint32_t tmp;
+           ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:3409:12: style: The scope of the variable 'tmp' can be reduced. [variableScope]
+  uint32_t tmp;
+           ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:1274:23: style: Variable 'Prev_State' is assigned a value that is never used. [unreadVariable]
+  uint32_t Prev_State = 0x00U;
+                      ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:1369:23: style: Variable 'Prev_State' is assigned a value that is never used. [unreadVariable]
+  uint32_t Prev_State = 0x00U;
+                      ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2333:33: style: Variable 'tmp1' is assigned a value that is never used. [unreadVariable]
+  uint32_t tickstart = 0U, tmp1 = 0U, tmp2 = 0U, tmp3 = 0U, I2C_Trials = 1U;
+                                ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2333:44: style: Variable 'tmp2' is assigned a value that is never used. [unreadVariable]
+  uint32_t tickstart = 0U, tmp1 = 0U, tmp2 = 0U, tmp3 = 0U, I2C_Trials = 1U;
+                                           ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2333:55: style: Variable 'tmp3' is assigned a value that is never used. [unreadVariable]
+  uint32_t tickstart = 0U, tmp1 = 0U, tmp2 = 0U, tmp3 = 0U, I2C_Trials = 1U;
+                                                      ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2555:17: style: Variable 'tmp1' is assigned a value that is never used. [unreadVariable]
+  uint32_t tmp1 = 0U, tmp2 = 0U, tmp3 = 0U, tmp4 = 0U;
+                ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2555:28: style: Variable 'tmp2' is assigned a value that is never used. [unreadVariable]
+  uint32_t tmp1 = 0U, tmp2 = 0U, tmp3 = 0U, tmp4 = 0U;
+                           ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2555:39: style: Variable 'tmp3' is assigned a value that is never used. [unreadVariable]
+  uint32_t tmp1 = 0U, tmp2 = 0U, tmp3 = 0U, tmp4 = 0U;
+                                      ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2555:50: style: Variable 'tmp4' is assigned a value that is never used. [unreadVariable]
+  uint32_t tmp1 = 0U, tmp2 = 0U, tmp3 = 0U, tmp4 = 0U;
+                                                 ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:997:12: style: The scope of the variable 'pllm' can be reduced. [variableScope]
+  uint32_t pllm = 0, pllvco = 0, pllp = 0;
+           ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:997:22: style: The scope of the variable 'pllvco' can be reduced. [variableScope]
+  uint32_t pllm = 0, pllvco = 0, pllp = 0;
+                     ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:997:34: style: The scope of the variable 'pllp' can be reduced. [variableScope]
+  uint32_t pllm = 0, pllvco = 0, pllp = 0;
+                                 ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:270:21: style: Variable 'tickstart' is assigned a value that is never used. [unreadVariable]
+ uint32_t tickstart = 0;
+                    ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:622:22: style: Variable 'tickstart' is assigned a value that is never used. [unreadVariable]
+  uint32_t tickstart = 0;
+                     ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:566:12: style: The scope of the variable 'pktcnt' can be reduced. [variableScope]
+  uint16_t pktcnt = 0;
+           ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:777:12: style: The scope of the variable 'count32b' can be reduced. [variableScope]
+  uint32_t count32b= 0 , i= 0;
+           ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:777:26: style: The scope of the variable 'i' can be reduced. [variableScope]
+  uint32_t count32b= 0 , i= 0;
+                         ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:1471:12: style: The scope of the variable 'len_words' can be reduced. [variableScope]
+  uint16_t len_words = 0;
+           ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:1473:12: style: The scope of the variable 'max_hc_pkt_count' can be reduced. [variableScope]
+  uint16_t max_hc_pkt_count = 256;
+           ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:566:19: style: Variable 'pktcnt' is assigned a value that is never used. [unreadVariable]
+  uint16_t pktcnt = 0;
+                  ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:777:20: style: Variable 'count32b' is assigned a value that is never used. [unreadVariable]
+  uint32_t count32b= 0 , i= 0;
+                   ^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:777:27: style: Variable 'i' is assigned a value that is never used. [unreadVariable]
+  uint32_t count32b= 0 , i= 0;
+                          ^
+firmware/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c:156:22: style: The scope of the variable 'CDC_Handle' can be reduced. [variableScope]
+  CDC_HandleTypeDef *CDC_Handle;
+                     ^
+firmware/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c:466:91: style:inconclusive: Function 'SetLineCoding' argument 2 names different: declaration 'linecoding' definition 'linecodin'. [funcArgNamesDifferent]
+static USBH_StatusTypeDef SetLineCoding(USBH_HandleTypeDef *phost, CDC_LineCodingTypeDef *linecodin)
+                                                                                          ^
+firmware/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c:119:73: note: Function 'SetLineCoding' argument 2 names different: declaration 'linecoding' definition 'linecodin'.
+                                                 CDC_LineCodingTypeDef *linecoding);
+                                                                        ^
+firmware/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c:466:91: note: Function 'SetLineCoding' argument 2 names different: declaration 'linecoding' definition 'linecodin'.
+static USBH_StatusTypeDef SetLineCoding(USBH_HandleTypeDef *phost, CDC_LineCodingTypeDef *linecodin)
+                                                                                          ^
+firmware/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.c:750:11: style: Variable 'f->lock' is reassigned a value before the old one has been used. [redundantAssignment]
+  f->lock = 0;
+          ^
+firmware/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.c:732:13: note: f->lock is assigned
+    f->lock = 1;
+            ^
+firmware/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.c:750:11: note: f->lock is overwritten
+  f->lock = 0;
+          ^
+firmware/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.c:789:11: style: Variable 'f->lock' is reassigned a value before the old one has been used. [redundantAssignment]
+  f->lock = 0;
+          ^
+firmware/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.c:769:13: note: f->lock is assigned
+    f->lock = 1;
+            ^
+firmware/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.c:789:11: note: f->lock is overwritten
+  f->lock = 0;
+          ^
+firmware/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.c:140:11: style: The scope of the variable 'max_ep' can be reduced. [variableScope]
+  uint8_t max_ep;
+          ^
+firmware/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.c:141:11: style: The scope of the variable 'num' can be reduced. [variableScope]
+  uint8_t num = 0;
+          ^
+firmware/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.c:145:22: style: The scope of the variable 'HID_Handle' can be reduced. [variableScope]
+  HID_HandleTypeDef *HID_Handle;
+                     ^
+firmware/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.c:726:13: style: The scope of the variable 'i' can be reduced. [variableScope]
+  uint16_t  i;
+            ^
+firmware/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.c:764:13: style: The scope of the variable 'i' can be reduced. [variableScope]
+  uint16_t  i;
+            ^
+firmware/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.c:367:11: style: The scope of the variable 'x' can be reduced. [variableScope]
+  uint8_t x;
+          ^
+firmware/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.c:104:12: style: The scope of the variable 'bofs' can be reduced. [variableScope]
+  uint32_t bofs;
+           ^
+firmware/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.c:172:12: style: The scope of the variable 'bofs' can be reduced. [variableScope]
+  uint32_t bofs;
+           ^
+firmware/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.c:173:16: style: Variable 'data' is assigned a value that is never used. [unreadVariable]
+  uint8_t *data=ri->data;
+               ^
+firmware/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.c:193:9: style: Variable 'data' is assigned a value that is never used. [unreadVariable]
+    data+=bofs/8;
+        ^
+firmware/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c:370:33: style: The scope of the variable 'pif' can be reduced. [variableScope]
+  USBH_InterfaceDescTypeDef    *pif ;
+                                ^
+firmware/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c:371:33: style: The scope of the variable 'pep' can be reduced. [variableScope]
+  USBH_EpDescTypeDef           *pep;
+                                ^
+firmware/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c:374:33: style: The scope of the variable 'if_ix' can be reduced. [variableScope]
+  int8_t                        if_ix = 0;
+                                ^
+firmware/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c:375:33: style: The scope of the variable 'ep_ix' can be reduced. [variableScope]
+  int8_t                        ep_ix = 0;
+                                ^
+firmware/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c:492:12: style: The scope of the variable 'strlength' can be reduced. [variableScope]
+  uint16_t strlength;
+           ^
+firmware/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c:493:12: style: The scope of the variable 'idx' can be reduced. [variableScope]
+  uint16_t idx;
+           ^
+firmware/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c:374:39: style: Variable 'if_ix' is assigned a value that is never used. [unreadVariable]
+  int8_t                        if_ix = 0;
+                                      ^
+firmware/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c:375:39: style: Variable 'ep_ix' is assigned a value that is never used. [unreadVariable]
+  int8_t                        ep_ix = 0;
+                                      ^
+firmware/axoloti_control.c:714:4: style: Redundant initialization for 'b'. The initialized value is overwritten before it is read. [redundantInitialization]
+ b = value;
+   ^
+firmware/axoloti_control.c:713:8: note: b is initialized
+ int b = value;
+       ^
+firmware/axoloti_control.c:714:4: note: b is overwritten
+ b = value;
+   ^
+firmware/axoloti_control.c:195:7: style: The scope of the variable 'nzero' can be reduced. [variableScope]
+ bool nzero = 0;
+      ^
+firmware/axoloti_control.c:218:7: style: The scope of the variable 'nzero' can be reduced. [variableScope]
+ bool nzero = 0;
+      ^
+firmware/axoloti_control.c:241:7: style: The scope of the variable 'nzero' can be reduced. [variableScope]
+ bool nzero = 0;
+      ^
+firmware/axoloti_control.c:268:7: style: The scope of the variable 'nzero' can be reduced. [variableScope]
+ bool nzero = 0;
+      ^
+firmware/axoloti_control.c:295:7: style: The scope of the variable 'nzero' can be reduced. [variableScope]
+ bool nzero = 0;
+      ^
+firmware/axoloti_control.c:325:7: style: The scope of the variable 'nzero' can be reduced. [variableScope]
+ bool nzero = 0;
+      ^
+firmware/axoloti_control.c:414:7: style: The scope of the variable 'nzero' can be reduced. [variableScope]
+ bool nzero = 0;
+      ^
+firmware/axoloti_control.c:462:7: style: The scope of the variable 'nzero' can be reduced. [variableScope]
+ bool nzero = 0;
+      ^
+firmware/axoloti_control.c:51:42: style:inconclusive: Function 'LED_setOne' argument 2 names different: declaration 'v' definition 'b'. [funcArgNamesDifferent]
+void LED_setOne(led_array_t *c, unsigned b) {
+                                         ^
+firmware/axoloti_control.h:91:42: note: Function 'LED_setOne' argument 2 names different: declaration 'v' definition 'b'.
+void LED_setOne(led_array_t *c, unsigned v);
+                                         ^
+firmware/axoloti_control.c:51:42: note: Function 'LED_setOne' argument 2 names different: declaration 'v' definition 'b'.
+void LED_setOne(led_array_t *c, unsigned b) {
+                                         ^
+firmware/axoloti_control.c:541:65: style:inconclusive: Function 'LCD_drawStringN' argument 4 names different: declaration 'N' definition 'n'. [funcArgNamesDifferent]
+void LCD_drawStringN(int half_x, int line, const char *str, int n) {
+                                                                ^
+firmware/axoloti_control.h:116:65: note: Function 'LCD_drawStringN' argument 4 names different: declaration 'N' definition 'n'.
+void LCD_drawStringN(int half_x, int line, const char *str, int N);
+                                                                ^
+firmware/axoloti_control.c:541:65: note: Function 'LCD_drawStringN' argument 4 names different: declaration 'N' definition 'n'.
+void LCD_drawStringN(int half_x, int line, const char *str, int n) {
+                                                                ^
+firmware/axoloti_control.c:565:68: style:inconclusive: Function 'LCD_drawStringInvN' argument 4 names different: declaration 'N' definition 'n'. [funcArgNamesDifferent]
+void LCD_drawStringInvN(int half_x, int line, const char *str, int n) {
+                                                                   ^
+firmware/axoloti_control.h:117:68: note: Function 'LCD_drawStringInvN' argument 4 names different: declaration 'N' definition 'n'.
+void LCD_drawStringInvN(int half_x, int line, const char *str, int N);
+                                                                   ^
+firmware/axoloti_control.c:565:68: note: Function 'LCD_drawStringInvN' argument 4 names different: declaration 'N' definition 'n'.
+void LCD_drawStringInvN(int half_x, int line, const char *str, int n) {
+                                                                   ^
+firmware/axoloti_control.c:375:4: style: Variable 'p' is assigned a value that is never used. [unreadVariable]
+ p = LCD_drawChar_ll(p, hexchar_from_nibble(d));
+   ^
+firmware/axoloti_control.c:402:4: style: Variable 'p' is assigned a value that is never used. [unreadVariable]
+ p = LCD_drawCharInv_ll(p, hexchar_from_nibble(d));
+   ^
+firmware/axoloti_control.c:441:5: style: Variable 'p' is assigned a value that is never used. [unreadVariable]
+  p = LCD_drawDigit_ll(p, value2);
+    ^
+firmware/axoloti_control.c:449:5: style: Variable 'p' is assigned a value that is never used. [unreadVariable]
+  p = LCD_drawChar_ll(p, 'w');
+    ^
+firmware/axoloti_control.c:489:5: style: Variable 'p' is assigned a value that is never used. [unreadVariable]
+  p = LCD_drawDigitInv_ll(p, value2);
+    ^
+firmware/axoloti_control.c:497:5: style: Variable 'p' is assigned a value that is never used. [unreadVariable]
+  p = LCD_drawCharInv_ll(p, 'w');
+    ^
+firmware/axoloti_math.c:74:22: style: Expression 'log(1 + x)' can be replaced by 'log1p(x)' to avoid loss of precision. [unpreciseMathCall]
+    double e = 0.5 * log(1.0 + ((double)i / (double)LOGTSIZE)) / log(2.0);
+                     ^
+firmware/axoloti_math.c:93:7: style: Variable 'f.f' is assigned a value that is never used. [unreadVariable]
+  f.f = i;
+      ^
+firmware/axoloti_memory.c:35:10: style: Local variable 'sram3_available' shadows outer function [shadowFunction]
+  size_t sram3_available, sram3_largestp;
+         ^
+firmware/axoloti_memory.c:40:5: note: Shadowed declaration
+int sram3_available(void) {
+    ^
+firmware/axoloti_memory.c:35:10: note: Shadow variable
+  size_t sram3_available, sram3_largestp;
+         ^
+firmware/board.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 13 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+firmware/codec_ADAU1961_SAI.c:77:12: style: Boolean result is used in bitwise operation. Clarify expression with parentheses. [clarifyCondition]
+  if (edge ^ !palReadPad(SPILINK_FSYNC_PORT, SPILINK_FSYNC_PAD)) {
+           ^
+firmware/codec_ADAU1961_SAI.c:91:12: style: Boolean result is used in bitwise operation. Clarify expression with parentheses. [clarifyCondition]
+  if (edge ^ !palReadPad(SPILINK_FSYNC_PORT, SPILINK_FSYNC_PAD)) {
+           ^
+firmware/codec_ADAU1961_SAI.c:299:14: style: Local variable 'i' shadows outer variable [shadowVariable]
+         int i = 0;
+             ^
+firmware/codec_ADAU1961_SAI.c:255:9: note: Shadowed declaration
+    int i = 100;
+        ^
+firmware/codec_ADAU1961_SAI.c:299:14: note: Shadow variable
+         int i = 0;
+             ^
+firmware/crc32.c:29:10: error: Uninitialized variable: result [uninitvar]
+  return result;
+         ^
+firmware/dlfcn.c:27:21: style: Variable 'dlhandle' is assigned a value that is never used. [unreadVariable]
+  dllib_t *dlhandle = (dllib_t *)handle;
+                    ^
+firmware/exports.c:95:8: style: Variable 'i' is assigned a value that is never used. [unreadVariable]
+      i++;
+       ^
+api/logging.h:19:21: error: va_list 'args' used before va_start() was called. [va_list_usedBeforeStarted]
+  log_vprintf("\n", args);
+                    ^
+firmware/main.c:124:13: style: Variable 'patch' is assigned a value that is never used. [unreadVariable]
+      patch = patch_load("@08080000:flash",0);
+            ^
+firmware/menu_content/test_menu.c:63:2: style: Consecutive return, break, continue, goto or throw statements are unnecessary. [duplicateBreak]
+ return 0;
+ ^
+firmware/midi_decoder.c:47:10: style: The scope of the variable 'len' can be reduced. [variableScope]
+  int8_t len;
+         ^
+firmware/mounter/board.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 13 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+firmware/patch.c:182:15: style: Array index 'p' is used before limits check. [arrayIndexThenCheck]
+    while((buf[p]!='\n') && (p<bytes_read)) {
+              ^
+firmware/patch.c:517:30: style: Condition 'patch->patchStatus==STOPPED' is always false [knownConditionTrueFalse]
+      if (patch->patchStatus == STOPPED)
+                             ^
+firmware/patch.c:514:26: note: Assignment 'patch->patchStatus=STOPPING', assigned value is 2
+    patch->patchStatus = STOPPING;
+                         ^
+firmware/patch.c:517:30: note: Condition 'patch->patchStatus==STOPPED' is always false
+      if (patch->patchStatus == STOPPED)
+                             ^
+firmware/patch.c:173:11: style: Local variable 'buf' shadows outer variable [shadowVariable]
+  uint8_t buf[64];
+          ^
+firmware/codec.h:25:16: note: Shadowed declaration
+extern int32_t buf[BUFSIZE * 2]; // *2 for stereo
+               ^
+firmware/patch.c:173:11: note: Shadow variable
+  uint8_t buf[64];
+          ^
+firmware/patch.c:493:17: style: Local variable 'err_msg' shadows outer variable [shadowVariable]
+    const char *err_msg = errorCodeToString(result);
+                ^
+firmware/patch.c:51:20: note: Shadowed declaration
+static const char *err_msg;
+                   ^
+firmware/patch.c:493:17: note: Shadow variable
+    const char *err_msg = errorCodeToString(result);
+                ^
+firmware/patch.c:555:19: warning: Either the condition 'index>(1<<23)' is redundant or there is signed integer overflow for expression 'index<<8'. [integerOverflowCond]
+  int idx8 = index<<8;
+                  ^
+firmware/patch.c:551:24: note: Assuming that condition 'index>(1<<23)' is not redundant
+  if ((index<0)||(index>(1<<23))) {
+                       ^
+firmware/patch.c:555:19: note: Integer overflow
+  int idx8 = index<<8;
+                  ^
+firmware/patch.c:579:15: style: Variable 'msg' is assigned a value that is never used. [unreadVariable]
+    msg_t msg = chThdWait(job);
+              ^
+firmware/pconnection.c:605:7: style: Variable 'msg' is reassigned a value before the old one has been used. [redundantAssignment]
+  msg = getUInt32(in_stream, &size);
+      ^
+firmware/pconnection.c:604:7: note: msg is assigned
+  msg = getUInt32(in_stream, &offset1);
+      ^
+firmware/pconnection.c:605:7: note: msg is overwritten
+  msg = getUInt32(in_stream, &size);
+      ^
+firmware/pconnection.c:636:7: style: Variable 'msg' is reassigned a value before the old one has been used. [redundantAssignment]
+  msg = getUInt32(in_stream, &typeflags);
+      ^
+firmware/pconnection.c:635:7: note: msg is assigned
+  msg = getUInt32(in_stream, &size);
+      ^
+firmware/pconnection.c:636:7: note: msg is overwritten
+  msg = getUInt32(in_stream, &typeflags);
+      ^
+firmware/pconnection.c:637:7: style: Variable 'msg' is reassigned a value before the old one has been used. [redundantAssignment]
+  msg = getUInt32(in_stream, &alignment);
+      ^
+firmware/pconnection.c:636:7: note: msg is assigned
+  msg = getUInt32(in_stream, &typeflags);
+      ^
+firmware/pconnection.c:637:7: note: msg is overwritten
+  msg = getUInt32(in_stream, &alignment);
+      ^
+firmware/pconnection.c:639:7: style: Variable 'msg' is reassigned a value before the old one has been used. [redundantAssignment]
+  msg = tx_reply_ptr(r);
+      ^
+firmware/pconnection.c:637:7: note: msg is assigned
+  msg = getUInt32(in_stream, &alignment);
+      ^
+firmware/pconnection.c:639:7: note: msg is overwritten
+  msg = tx_reply_ptr(r);
+      ^
+firmware/pconnection.c:677:7: style: Variable 'msg' is reassigned a value before the old one has been used. [redundantAssignment]
+  msg = getUInt32(in_stream, &psrc);
+      ^
+firmware/pconnection.c:676:7: note: msg is assigned
+  msg = getUInt32(in_stream, &pdest);
+      ^
+firmware/pconnection.c:677:7: note: msg is overwritten
+  msg = getUInt32(in_stream, &psrc);
+      ^
+firmware/pconnection.c:678:7: style: Variable 'msg' is reassigned a value before the old one has been used. [redundantAssignment]
+  msg = getUInt32(in_stream, &size);
+      ^
+firmware/pconnection.c:677:7: note: msg is assigned
+  msg = getUInt32(in_stream, &psrc);
+      ^
+firmware/pconnection.c:678:7: note: msg is overwritten
+  msg = getUInt32(in_stream, &size);
+      ^
+firmware/pconnection.c:682:9: style: Variable 'msg' is reassigned a value before the old one has been used. [redundantAssignment]
+    msg = tx_reply_ptr((void *)err);
+        ^
+firmware/pconnection.c:678:7: note: msg is assigned
+  msg = getUInt32(in_stream, &size);
+      ^
+firmware/pconnection.c:682:9: note: msg is overwritten
+    msg = tx_reply_ptr((void *)err);
+        ^
+firmware/pconnection.c:696:7: style: Variable 'msg' is reassigned a value before the old one has been used. [redundantAssignment]
+  msg = getUInt32(in_stream, &index);
+      ^
+firmware/pconnection.c:695:7: note: msg is assigned
+  msg = getPatch(in_stream, &patch);
+      ^
+firmware/pconnection.c:696:7: note: msg is overwritten
+  msg = getUInt32(in_stream, &index);
+      ^
+firmware/pconnection.c:697:7: style: Variable 'msg' is reassigned a value before the old one has been used. [redundantAssignment]
+  msg = getInt32(in_stream, &value);
+      ^
+firmware/pconnection.c:696:7: note: msg is assigned
+  msg = getUInt32(in_stream, &index);
+      ^
+firmware/pconnection.c:697:7: note: msg is overwritten
+  msg = getInt32(in_stream, &value);
+      ^
+firmware/pconnection.c:770:7: style: Variable 'msg' is reassigned a value before the old one has been used. [redundantAssignment]
+  msg = getUInt32(in_stream, &length);
+      ^
+firmware/pconnection.c:769:7: note: msg is assigned
+  msg = getInt32(in_stream, &file_ref);
+      ^
+firmware/pconnection.c:770:7: note: msg is overwritten
+  msg = getUInt32(in_stream, &length);
+      ^
+firmware/pconnection.c:811:7: style: Variable 'msg' is reassigned a value before the old one has been used. [redundantAssignment]
+  msg = getUInt32(in_stream, &fsize);
+      ^
+firmware/pconnection.c:810:7: note: msg is assigned
+  msg = getInt32(in_stream, &file_ref);
+      ^
+firmware/pconnection.c:811:7: note: msg is overwritten
+  msg = getUInt32(in_stream, &fsize);
+      ^
+firmware/pconnection.c:928:7: style: Variable 'msg' is reassigned a value before the old one has been used. [redundantAssignment]
+  msg = getUInt16(in_stream, &time);
+      ^
+firmware/pconnection.c:927:7: note: msg is assigned
+  msg = getUInt16(in_stream, &date);
+      ^
+firmware/pconnection.c:928:7: note: msg is overwritten
+  msg = getUInt16(in_stream, &time);
+      ^
+firmware/pconnection.c:964:7: style: Variable 'msg' is reassigned a value before the old one has been used. [redundantAssignment]
+  msg = getInt32(in_stream, &index);
+      ^
+firmware/pconnection.c:963:7: note: msg is assigned
+  msg = getPatch(in_stream, &patch);
+      ^
+firmware/pconnection.c:964:7: note: msg is overwritten
+  msg = getInt32(in_stream, &index);
+      ^
+firmware/pconnection.c:975:7: style: Variable 'msg' is reassigned a value before the old one has been used. [redundantAssignment]
+  msg = getInt32(in_stream, &size);
+      ^
+firmware/pconnection.c:974:7: note: msg is assigned
+  msg = getPatch(in_stream, &patch);
+      ^
+firmware/pconnection.c:975:7: note: msg is overwritten
+  msg = getInt32(in_stream, &size);
+      ^
+firmware/pconnection.c:891:9: style:inconclusive: Found duplicate branches for 'if' and 'else'. [duplicateBranch]
+        if (fno.fattrib & AM_DIR) {
+        ^
+firmware/pconnection.c:893:11: note: Found duplicate branches for 'if' and 'else'.
+        } else {
+          ^
+firmware/pconnection.c:891:9: note: Found duplicate branches for 'if' and 'else'.
+        if (fno.fattrib & AM_DIR) {
+        ^
+firmware/pconnection.c:782:11: style: Local variable 'msg' shadows outer variable [shadowVariable]
+    msg_t msg;
+          ^
+firmware/pconnection.c:768:9: note: Shadowed declaration
+  msg_t msg;
+        ^
+firmware/pconnection.c:782:11: note: Shadow variable
+    msg_t msg;
+          ^
+firmware/pconnection.c:790:11: style: Local variable 'buf' shadows outer variable [shadowVariable]
+    char *buf = (char *)fbuff;
+          ^
+firmware/codec.h:25:16: note: Shadowed declaration
+extern int32_t buf[BUFSIZE * 2]; // *2 for stereo
+               ^
+firmware/pconnection.c:790:11: note: Shadow variable
+    char *buf = (char *)fbuff;
+          ^
+firmware/pconnection.c:796:11: style: Local variable 'msg' shadows outer variable [shadowVariable]
+    msg_t msg;
+          ^
+firmware/pconnection.c:768:9: note: Shadowed declaration
+  msg_t msg;
+        ^
+firmware/pconnection.c:796:11: note: Shadow variable
+    msg_t msg;
+          ^
+firmware/pconnection.c:697:7: style: Variable 'msg' is assigned a value that is never used. [unreadVariable]
+  msg = getInt32(in_stream, &value);
+      ^
+firmware/pconnection.c:770:7: style: Variable 'msg' is assigned a value that is never used. [unreadVariable]
+  msg = getUInt32(in_stream, &length);
+      ^
+firmware/pconnection.c:811:7: style: Variable 'msg' is assigned a value that is never used. [unreadVariable]
+  msg = getUInt32(in_stream, &fsize);
+      ^
+firmware/pconnection.c:928:7: style: Variable 'msg' is assigned a value that is never used. [unreadVariable]
+  msg = getUInt16(in_stream, &time);
+      ^
+firmware/pconnection.c:987:7: style: Variable 'msg' is assigned a value that is never used. [unreadVariable]
+  msg = getPatch(in_stream, &patch);
+      ^
+firmware/spidb.c:0:0: information: Too many #ifdef configurations - cppcheck only checks 12 of 60 configurations. Use --force to check all configurations. [toomanyconfigs]
+
+^
+firmware/sysmon.c:182:36: style:inconclusive: Function 'sysmon_blink_pattern' argument 1 names different: declaration 'pattern' definition 'pat'. [funcArgNamesDifferent]
+void sysmon_blink_pattern(uint32_t pat) {
+                                   ^
+firmware/sysmon.h:23:36: note: Function 'sysmon_blink_pattern' argument 1 names different: declaration 'pattern' definition 'pat'.
+void sysmon_blink_pattern(uint32_t pattern);
+                                   ^
+firmware/sysmon.c:182:36: note: Function 'sysmon_blink_pattern' argument 1 names different: declaration 'pattern' definition 'pat'.
+void sysmon_blink_pattern(uint32_t pat) {
+                                   ^
+firmware/ui.c:162:41: style:inconclusive: Function 'ui_enter_node' argument 1 names different: declaration 'node' definition 'nodex'. [funcArgNamesDifferent]
+uint32_t ui_enter_node(const ui_node_t *nodex) {
+                                        ^
+firmware/ui.h:147:41: note: Function 'ui_enter_node' argument 1 names different: declaration 'node' definition 'nodex'.
+uint32_t ui_enter_node(const ui_node_t *node);
+                                        ^
+firmware/ui.c:162:41: note: Function 'ui_enter_node' argument 1 names different: declaration 'node' definition 'nodex'.
+uint32_t ui_enter_node(const ui_node_t *nodex) {
+                                        ^
+firmware/ui_nodes/object_list.c:48:9: style: Local variable 'i' shadows outer variable [shadowVariable]
+    int i;
+        ^
+firmware/ui_nodes/object_list.c:41:7: note: Shadowed declaration
+  int i = q + menu_stack[menu_stack_position].currentpos;
+      ^
+firmware/ui_nodes/object_list.c:48:9: note: Shadow variable
+    int i;
+        ^
+firmware/ui_nodes/param.c:58:7: style: Variable 'line' is assigned a value that is never used. [unreadVariable]
+  line++;
+      ^
+firmware/ui_nodes/param_list.c:73:8: style: Local variable 'nparams' shadows outer variable [shadowVariable]
+   int nparams = patch_getNParams(patch);
+       ^
+firmware/ui_nodes/param_list.c:56:7: note: Shadowed declaration
+  int nparams = patch_getNParams(patch);
+      ^
+firmware/ui_nodes/param_list.c:73:8: note: Shadow variable
+   int nparams = patch_getNParams(patch);
+       ^
+firmware/ui_nodes/param_list.c:90:9: style: Local variable 'nparams' shadows outer variable [shadowVariable]
+    int nparams = patch_getNParams(patch);
+        ^
+firmware/ui_nodes/param_list.c:56:7: note: Shadowed declaration
+  int nparams = patch_getNParams(patch);
+      ^
+firmware/ui_nodes/param_list.c:90:9: note: Shadow variable
+    int nparams = patch_getNParams(patch);
+        ^
+firmware/ui_nodes/param_list.c:100:9: style: Local variable 'nparams' shadows outer variable [shadowVariable]
+    int nparams = patch_getNParams(patch);
+        ^
+firmware/ui_nodes/param_list.c:56:7: note: Shadowed declaration
+  int nparams = patch_getNParams(patch);
+      ^
+firmware/ui_nodes/param_list.c:100:9: note: Shadow variable
+    int nparams = patch_getNParams(patch);
+        ^
+firmware/ui_nodes/param_list.c:110:9: style: Local variable 'nparams' shadows outer variable [shadowVariable]
+    int nparams = patch_getNParams(patch);
+        ^
+firmware/ui_nodes/param_list.c:56:7: note: Shadowed declaration
+  int nparams = patch_getNParams(patch);
+      ^
+firmware/ui_nodes/param_list.c:110:9: note: Shadow variable
+    int nparams = patch_getNParams(patch);
+        ^
+firmware/ui_nodes/param_list.c:120:9: style: Local variable 'nparams' shadows outer variable [shadowVariable]
+    int nparams = patch_getNParams(patch);
+        ^
+firmware/ui_nodes/param_list.c:56:7: note: Shadowed declaration
+  int nparams = patch_getNParams(patch);
+      ^
+firmware/ui_nodes/param_list.c:120:9: note: Shadow variable
+    int nparams = patch_getNParams(patch);
+        ^
+firmware/ui_nodes/short_value.c:44:10: style: Local variable 'v' shadows outer variable [shadowVariable]
+     int v;
+         ^
+firmware/ui_nodes/short_value.c:22:8: note: Shadowed declaration
+   int v = LCDROWS - 2;
+       ^
+firmware/ui_nodes/short_value.c:44:10: note: Shadow variable
+     int v;
+         ^
+firmware/usbcfg.c:275:27: warning: Either the condition 'dindex<9' is redundant or the array 'vcom_strings[7]' is accessed at index 8, which is out of bounds. [arrayIndexOutOfBoundsCond]
+      return &vcom_strings[dindex];
+                          ^
+firmware/usbcfg.c:274:16: note: Assuming that condition 'dindex<9' is not redundant
+    if (dindex < 9)
+               ^
+firmware/usbcfg.c:275:27: note: Array index out of bounds
+      return &vcom_strings[dindex];
+                          ^
+firmware/usbh_vendor.c:52:25: style: The scope of the variable 'MIDI_Handle' can be reduced. [variableScope]
+    MIDI_HandleTypeDef *MIDI_Handle;
+                        ^
+firmware/patch.c:115:0: style: The function 'CheckStackOverflow' is never used. [unusedFunction]
+
+^
+firmware/axoloti_math.c:91:0: style: The function 'FastLog' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:419:0: style: The function 'HAL_DBGMCU_DisableDBGSleepMode' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:455:0: style: The function 'HAL_DBGMCU_DisableDBGStandbyMode' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:437:0: style: The function 'HAL_DBGMCU_DisableDBGStopMode' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:410:0: style: The function 'HAL_DBGMCU_EnableDBGSleepMode' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:446:0: style: The function 'HAL_DBGMCU_EnableDBGStandbyMode' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:428:0: style: The function 'HAL_DBGMCU_EnableDBGStopMode' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:200:0: style: The function 'HAL_DeInit' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:477:0: style: The function 'HAL_DisableCompensationCell' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:508:0: style: The function 'HAL_DisableMemorySwappingBank' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:466:0: style: The function 'HAL_EnableCompensationCell' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:493:0: style: The function 'HAL_EnableMemorySwappingBank' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:314:0: style: The function 'HAL_GPIO_DeInit' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:505:0: style: The function 'HAL_GPIO_EXTI_IRQHandler' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:472:0: style: The function 'HAL_GPIO_LockPin' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:395:0: style: The function 'HAL_GPIO_ReadPin' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c:453:0: style: The function 'HAL_GPIO_TogglePin' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:401:0: style: The function 'HAL_GetDEVID' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:383:0: style: The function 'HAL_GetHalVersion' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:392:0: style: The function 'HAL_GetREVID' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c:687:0: style: The function 'HAL_HCD_GetState' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c:741:0: style: The function 'HAL_HCD_HC_GetState' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c:706:0: style: The function 'HAL_HCD_HC_GetURBState' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c:323:0: style: The function 'HAL_HCD_HC_SubmitRequest' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:423:0: style: The function 'HAL_I2C_DeInit' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:1747:0: style: The function 'HAL_I2C_DisableListen_IT' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:1721:0: style: The function 'HAL_I2C_EnableListen_IT' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2819:0: style: The function 'HAL_I2C_GetError' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2808:0: style: The function 'HAL_I2C_GetMode' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2331:0: style: The function 'HAL_I2C_IsDeviceReady' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:1784:0: style: The function 'HAL_I2C_Master_Abort_IT' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:1198:0: style: The function 'HAL_I2C_Master_Receive_IT' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:1367:0: style: The function 'HAL_I2C_Master_Sequential_Receive_IT' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:1272:0: style: The function 'HAL_I2C_Master_Sequential_Transmit_IT' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:1959:0: style: The function 'HAL_I2C_Mem_Read' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2249:0: style: The function 'HAL_I2C_Mem_Read_IT' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:1840:0: style: The function 'HAL_I2C_Mem_Write' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:2172:0: style: The function 'HAL_I2C_Mem_Write_IT' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:1011:0: style: The function 'HAL_I2C_Slave_Receive' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:1535:0: style: The function 'HAL_I2C_Slave_Receive_IT' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:1667:0: style: The function 'HAL_I2C_Slave_Sequential_Receive_IT' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:1609:0: style: The function 'HAL_I2C_Slave_Sequential_Transmit_IT' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:891:0: style: The function 'HAL_I2C_Slave_Transmit' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c:1463:0: style: The function 'HAL_I2C_Slave_Transmit_IT' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:311:0: style: The function 'HAL_IncTick' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:167:0: style: The function 'HAL_Init' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:351:0: style: The function 'HAL_NVIC_ClearPendingIRQ' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:221:0: style: The function 'HAL_NVIC_DisableIRQ' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:368:0: style: The function 'HAL_NVIC_GetActive' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:335:0: style: The function 'HAL_NVIC_GetPendingIRQ' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:302:0: style: The function 'HAL_NVIC_GetPriority' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:275:0: style: The function 'HAL_NVIC_GetPriorityGrouping' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:317:0: style: The function 'HAL_NVIC_SetPendingIRQ' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:234:0: style: The function 'HAL_NVIC_SystemReset' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:620:0: style: The function 'HAL_RCC_ClockConfig' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:234:0: style: The function 'HAL_RCC_DeInit' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:960:0: style: The function 'HAL_RCC_DisableCSS' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:951:0: style: The function 'HAL_RCC_EnableCSS' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:1167:0: style: The function 'HAL_RCC_GetClockConfig' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:1088:0: style: The function 'HAL_RCC_GetOscConfig' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:1075:0: style: The function 'HAL_RCC_GetPCLK2Freq' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:897:0: style: The function 'HAL_RCC_MCOConfig' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:1193:0: style: The function 'HAL_RCC_NMI_IRQHandler' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c:268:0: style: The function 'HAL_RCC_OscConfig' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:373:0: style: The function 'HAL_ResumeTick' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:385:0: style: The function 'HAL_SYSTICK_CLKSourceConfig' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c:403:0: style: The function 'HAL_SYSTICK_IRQHandler' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c:357:0: style: The function 'HAL_SuspendTick' is never used. [unusedFunction]
+
+^
+firmware/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_parser.c:168:0: style: The function 'HID_WriteItem' is never used. [unusedFunction]
+
+^
+firmware/axoloti_control.c:83:0: style: The function 'LCD_clearPixel' is never used. [unusedFunction]
+
+^
+firmware/axoloti_control.c:209:0: style: The function 'LCD_drawNumber3DInv' is never used. [unusedFunction]
+
+^
+firmware/axoloti_control.c:63:0: style: The function 'LCD_drawPixel' is never used. [unusedFunction]
+
+^
+firmware/axoloti_control.c:501:0: style: The function 'LCD_drawString' is never used. [unusedFunction]
+
+^
+firmware/axoloti_control.c:91:0: style: The function 'LCD_getPixel' is never used. [unusedFunction]
+
+^
+firmware/axoloti_control.c:112:0: style: The function 'LCD_grey' is never used. [unusedFunction]
+
+^
+firmware/axoloti_control.c:75:0: style: The function 'LCD_setPixel' is never used. [unusedFunction]
+
+^
+firmware/mounter/board.c:296:0: style: The function 'STM32_OTG2_HANDLER' is never used. [unusedFunction]
+
+^
+firmware/midi_din.c:74:0: style: The function 'THD_FUNCTION' is never used. [unusedFunction]
+
+^
+firmware/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c:526:0: style: The function 'USBH_CDC_GetLastReceivedDataSize' is never used. [unusedFunction]
+
+^
+firmware/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c:506:0: style: The function 'USBH_CDC_GetLineCoding' is never used. [unusedFunction]
+
+^
+firmware/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c:570:0: style: The function 'USBH_CDC_Receive' is never used. [unusedFunction]
+
+^
+firmware/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c:486:0: style: The function 'USBH_CDC_SetLineCoding' is never used. [unusedFunction]
+
+^
+firmware/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c:423:0: style: The function 'USBH_CDC_Stop' is never used. [unusedFunction]
+
+^
+firmware/STM32_USB_Host_Library/Class/CDC/Src/usbh_cdc.c:545:0: style: The function 'USBH_CDC_Transmit' is never used. [unusedFunction]
+
+^
+firmware/STM32_USB_Host_Library/Core/Src/usbh_core.c:147:0: style: The function 'USBH_DeInit' is never used. [unusedFunction]
+
+^
+firmware/STM32_USB_Host_Library/Core/Src/usbh_core.c:310:0: style: The function 'USBH_FindInterfaceIndex' is never used. [unusedFunction]
+
+^
+firmware/STM32_USB_Host_Library/Core/Src/usbh_core.c:264:0: style: The function 'USBH_GetActiveClass' is never used. [unusedFunction]
+
+^
+firmware/STM32_USB_Host_Library/Class/HID/Src/usbh_hid_keybd.c:404:0: style: The function 'USBH_HID_GetASCIICode' is never used. [unusedFunction]
+
+^
+firmware/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.c:682:0: style: The function 'USBH_HID_GetPollInterval' is never used. [unusedFunction]
+
+^
+firmware/STM32_USB_Host_Library/Class/HID/Src/usbh_hid.c:553:0: style: The function 'USBH_HID_SetReport' is never used. [unusedFunction]
+
+^
+firmware/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c:270:0: style: The function 'USBH_InterruptSendData' is never used. [unusedFunction]
+
+^
+firmware/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c:296:0: style: The function 'USBH_IsocReceiveData' is never used. [unusedFunction]
+
+^
+firmware/STM32_USB_Host_Library/Core/Src/usbh_ioreq.c:323:0: style: The function 'USBH_IsocSendData' is never used. [unusedFunction]
+
+^
+firmware/usbh_conf.c:254:0: style: The function 'USBH_LL_DeInit' is never used. [unusedFunction]
+
+^
+firmware/usbh_conf.c:429:0: style: The function 'USBH_LL_GetToggle' is never used. [unusedFunction]
+
+^
+firmware/STM32_USB_Host_Library/Core/Src/usbh_core.c:401:0: style: The function 'USBH_Process' is never used. [unusedFunction]
+
+^
+firmware/STM32_USB_Host_Library/Core/Src/usbh_core.c:375:0: style: The function 'USBH_ReEnumerate' is never used. [unusedFunction]
+
+^
+firmware/STM32_USB_Host_Library/Core/Src/usbh_ctlreq.c:283:0: style: The function 'USBH_SetInterface' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:470:0: style: The function 'USB_ActivateDedicatedEndpoint' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:439:0: style: The function 'USB_ActivateEndpoint' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:1044:0: style: The function 'USB_ActivateSetup' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:1020:0: style: The function 'USB_ClearInterrupts' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:538:0: style: The function 'USB_DeactivateDedicatedEndpoint' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:513:0: style: The function 'USB_DeactivateEndpoint' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:920:0: style: The function 'USB_DevConnect' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:933:0: style: The function 'USB_DevDisconnect' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:200:0: style: The function 'USB_DevInit' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:686:0: style: The function 'USB_EP0StartXfer' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:1069:0: style: The function 'USB_EP0_OutStart' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:850:0: style: The function 'USB_EPClearStall' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:822:0: style: The function 'USB_EPSetStall' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:564:0: style: The function 'USB_EPStartXfer' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:412:0: style: The function 'USB_GetDevSpeed' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:973:0: style: The function 'USB_ReadDevAllInEpInterrupt' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:960:0: style: The function 'USB_ReadDevAllOutEpInterrupt' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:1003:0: style: The function 'USB_ReadDevInEPInterrupt' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:988:0: style: The function 'USB_ReadDevOutEPInterrupt' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:946:0: style: The function 'USB_ReadInterrupts' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:907:0: style: The function 'USB_SetDevAddress' is never used. [unusedFunction]
+
+^
+firmware/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c:876:0: style: The function 'USB_StopDevice' is never used. [unusedFunction]
+
+^
+firmware/usbh_conf.c:577:0: style: The function 'Vector168' is never used. [unusedFunction]
+
+^
+firmware/usbh_conf.c:582:0: style: The function 'Vector16C' is never used. [unusedFunction]
+
+^
+firmware/usbh_conf.c:560:0: style: The function 'Vector174' is never used. [unusedFunction]
+
+^
+firmware/board.c:199:0: style: The function '__early_init' is never used. [unusedFunction]
+
+^
+firmware/board.c:206:0: style: The function '__late_init' is never used. [unusedFunction]
+
+^
+firmware/board.c:235:0: style: The function 'boardInit' is never used. [unusedFunction]
+
+^
+firmware/exports.c:44:0: style: The function 'closeReferencedLibs' is never used. [unusedFunction]
+
+^
+firmware/codec.c:34:0: style: The function 'codecStop' is never used. [unusedFunction]
+
+^
+firmware/codec_ADAU1961_SAI.c:621:0: style: The function 'codec_ADAU1961_Stop' is never used. [unusedFunction]
+
+^
+firmware/codec_ADAU1961_SAI.c:62:0: style: The function 'codec_ADAU1961_hw_reset' is never used. [unusedFunction]
+
+^
+firmware/exceptions.c:370:0: style: The function 'dbg_set_i' is never used. [unusedFunction]
+
+^
+firmware/dlfcn.c:54:0: style: The function 'dlerror' is never used. [unusedFunction]
+
+^
+firmware/sysmon.c:159:0: style: The function 'enableUserLeds' is never used. [unusedFunction]
+
+^
+firmware/sysmon.c:199:0: style: The function 'errorFlagClearAll' is never used. [unusedFunction]
+
+^
+firmware/fatfs_dmafix.c:24:0: style: The function 'f_write1' is never used. [unusedFunction]
+
+^
+firmware/usbh_conf.c:554:0: style: The function 'fakefree' is never used. [unusedFunction]
+
+^
+firmware/usbh_conf.c:543:0: style: The function 'fakemalloc' is never used. [unusedFunction]
+
+^
+firmware/sysmon.c:195:0: style: The function 'getErrorFlag' is never used. [unusedFunction]
+
+^
+firmware/patch.c:91:0: style: The function 'getPatchMeta' is never used. [unusedFunction]
+
+^
+firmware/exports.c:78:0: style: The function 'getUndefinedSymbol' is never used. [unusedFunction]
+
+^
+firmware/sdram.c:184:0: style: The function 'memTest' is never used. [unusedFunction]
+
+^
+firmware/midi.c:69:0: style: The function 'midiSendSysEx' is never used. [unusedFunction]
+
+^
+firmware/midi_din.c:64:0: style: The function 'midi_din_GetOutputBufferPending' is never used. [unusedFunction]
+
+^
+firmware/midi_gpio.c:53:0: style: The function 'midi_gpio_GetOutputBufferPengpiog' is never used. [unusedFunction]
+
+^
+firmware/midi_gpio.c:149:0: style: The function 'midi_gpio_enable' is never used. [unusedFunction]
+
+^
+firmware/midi_buffer.c:34:0: style: The function 'midi_intput_buffer_deinit' is never used. [unusedFunction]
+
+^
+firmware/midi_buffer.c:74:0: style: The function 'midi_output_buffer_deinit' is never used. [unusedFunction]
+
+^
+firmware/midi_buffer.c:112:0: style: The function 'midi_output_buffer_get_available' is never used. [unusedFunction]
+
+^
+firmware/midi_buffer.c:70:0: style: The function 'midi_output_buffer_reset' is never used. [unusedFunction]
+
+^
+firmware/codec_ADAU1961_SAI.c:204:0: style: The function 'picosleep' is never used. [unusedFunction]
+
+^
+firmware/exceptions.c:398:0: style: The function 'prvGetRegistersFromStack' is never used. [unusedFunction]
+
+^
+firmware/sysmon.c:173:0: style: The function 'readButton' is never used. [unusedFunction]
+
+^
+firmware/exceptions.c:28:0: style: The function 'report_exception' is never used. [unusedFunction]
+
+^
+firmware/exceptions.c:462:0: style: The function 'report_halt' is never used. [unusedFunction]
+
+^
+firmware/exceptions.c:318:0: style: The function 'report_patchLoadFail' is never used. [unusedFunction]
+
+^
+firmware/exceptions.c:340:0: style: The function 'report_patchLoadSDRamOverflow' is never used. [unusedFunction]
+
+^
+firmware/axoloti_memory.c:34:0: style: The function 'sram2_available' is never used. [unusedFunction]
+
+^
+firmware/midi_routing.c:49:0: style: The function 'store_midi_routing' is never used. [unusedFunction]
+
+^
+firmware/sysmon.c:151:0: style: The function 'sysmon_disable_blinker' is never used. [unusedFunction]
+
+^
+firmware/sysmon.c:165:0: style: The function 'writeLed' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+
